@@ -19,6 +19,5 @@
         </Grid.ColumnDefinitions>
         <Label x:Name="userName" Content="{Binding SurName}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Height="41"  Width="245" Grid.ColumnSpan="2" Margin="273,19,274,0" />
         <Button x:Name="ProductButton" Background="Lavender" Grid.Row="1" Grid.Column="0" Width="200" Height="50" Content="Товары" FontSize="18" FontFamily="Times New Roman" Click="ProductButton_Click"></Button>
-
     </Grid>
 </Window>
